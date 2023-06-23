@@ -1,0 +1,147 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    background-color: #b0b1b5;
+    user-select: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 95vh;
+    font-family: 'Pathway Extreme', sans-serif;
+}
+
+.hero{
+    display: flex;
+    padding: 2em;
+}
+
+.desc {
+    flex-basis: 1;
+}
+
+.desc h1 {
+    color: rgb(41, 41, 44);
+    font-size: 45px;
+    text-align: center;
+}
+
+.desc p{
+    color: rgb(42, 47, 44); 
+}
+
+.collection{
+    display: flex;
+    gap: 1em;
+}
+
+
+.mk1 {
+    align-self: flex-start;
+}
+
+.collection h3{
+    color: whitesmoke;
+}
+
+.mk1 img{
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 30px auto;
+    flex-basis: 2;
+}
+
+.container img {
+    width: 180px;
+    margin: 0 auto;
+    border-radius: 2em;
+}
+
+input {
+    color: #432000;
+    background-color: #DCE1EB;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    margin: 10px 0;
+}
+
+button {
+    color: #FDFDFD;
+    background-color: #c0c05a;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    color: #111;
+}
+
+button:hover {
+    background-color: #70382b;
+    cursor: pointer;
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+ul li {
+    font-size: 20px;
+    background-color: #FFFDF8;
+    padding: 15px;
+    border-radius: 8px;
+    flex-grow: 1;
+    text-align: center;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2)
+}
+
+ul li:hover {
+    background-color: #FFECC7;
+    cursor: pointer;
+}
+
+.empty-db{
+    color: rgb(83, 152, 139);
+    font-size: 19px;
+    padding-top: 0;
+}
+
+@media screen and ( max-width: 768px ){
+    .desc h1 {
+        color: rgb(41, 41, 44);
+        font-size: 35px;
+        text-align: start;
+    }
+
+    .hero {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .mk1 img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .container img {
+        width: 130px;
+    }
+}
