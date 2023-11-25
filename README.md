@@ -14,12 +14,12 @@ A single page that uses Firebase as backend to store data and JavaScript display
 
 # What's covered
 - Firebase Functions
-   * initializeApp
-   * getDatabase
-   * onValue
-   * ref
-   * push
-   * snapshots
+   * __initializeApp__
+   * __getDatabase__
+   * __onValue__
+   * __ref__
+   * __push__
+   * __snapshots__
 - Flex wrap
 - Favicon
 - Web Application Manifest
